@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends
+# from fastapi import FastAPI, Depends
 from .routers import router
 from .dependencies import init_db, get_db
 
