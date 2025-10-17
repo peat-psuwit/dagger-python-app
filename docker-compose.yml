@@ -15,7 +15,7 @@ services:
       - app_network
 
   db:
-    image: postgres:15-alpine
+    image: docker.io/library/postgres:15-alpine
     container_name: fastapi_db
     restart: unless-stopped
     environment:
